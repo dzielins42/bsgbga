@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="bsg_theme" parent="android:Theme">
+        <item name="android:windowBackground">@drawable/bsg_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:spinnerItemStyle">@style/bsg_spinner_item</item>
+        <item name="android:spinnerStyle">@style/bsg_spinner</item>
+    </style>
+    <style name="bsg_spinner" parent="android:Widget.Spinner">
+        <item name="android:background">@drawable/bsg_btn_dropdown</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="bsg_spinner_item" parent="android:Widget.TextView.SpinnerItem">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+</resources>

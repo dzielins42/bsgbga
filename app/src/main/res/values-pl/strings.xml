@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BSB:TBG Assistant</string>
+    <string name="logo">Logo</string>
+    <string name="legalStuff">BattleStar Galactica © USA Cable Entertainment LLC. All rights reserved.\nBoard game mechanics and rules © 2012 Fantasy Flight Publishing, Inc.</string>
+    <string name="info1">Programowanie &amp; dodatkowa grafika:\n&#9;&#9;&#9;Dominik Zieliński</string>
+    <string name="tokensTitle">Żetony</string>
+    <string name="tokensDesc">Generator losowych żetonów</string>
+    <string name="attacksTitle">Tabela Ataku</string>
+    <string name="attacksDesc">Rzuty wymagane do zniszczenia/uszkodzenia statków</string>
+    <string name="loyaltyTitle">Talia Lojalności</string>
+    <string name="loyaltyDesc">Składanie Talii Lojalności</string>
+    <string name="infoTitle">Informacje</string>
+    <string name="infoDesc">O aplikacji</string>
+    <string name="successionTitle">Linie Sukcesji</string>
+    <string name="successionDesc">Linie Sukcesji tytułów Prezydenta, Admirała i CAG</string>
+    <string name="FFGLink"><a href="http://www.fantasyflightgames.com/bsg/">BSG:TBG Strona Główna</a></string>
+    <string name="rulesTitle">Streszczenie Zasad</string>
+    <string name="rulesDesc">Krótkie streszczenie najważniejszych zasad</string>
+    <string-array name="playersCount">
+        <item>1 Gracz</item>
+        <item>2 Graczy</item>
+        <item>3 Graczy</item>
+        <item>4 Graczy</item>
+        <item>5 Graczy</item>
+        <item>6 Graczy</item>
+        <item>7 Graczy</item>
+    </string-array>
+    <string name="playersCountPrompt">Liczba Graczy:</string>
+    <string name="optionsPrompt">Możliwości:</string>
+    <string name="isBaltarInPlay">Gaius Baltar (Wersja podstawowa) w grze</string>
+    <string name="isValeriiInPlay">Sharon \"Boomer\" Valerii w grze</string>
+    <string name="isCylonLeaderInPlay">Przywódca Cylonów w grze</string>
+    <string name="exodusRules">Zasady rozszerzenia \"Exodus\"</string>
+    <string name="daybreakRules">Zasady rozszerzenia \"Daybreak\"</string>
+    <string name="loyaltyBtn">Złóż Talię Lojalności</string>
+    <string name="presidentTitle">Prezydent</string>
+    <string name="admiralTitle">Admirał</string>
+    <string name="CAGTitle">CAG</string>
+    <string name="youAreACylon">\&quot;Jesteś Cylonem\&quot;</string>
+    <string name="youAreNotACylon">\&quot;Nie jesteś Cylonem\&quot;</string>
+    <string name="youAreASympathizer" >\&quot;Jesteś Sympatykiem\&quot;</string>
+    <string name="youAreAMutineer" >\&quot;Jesteś Buntownikiem\&quot;</string>
+    <string name="agendaHostile">1x Wroga Intencji (Przywódca Cylonów)</string>
+    <string name="agendaSympathetic">1x Przyjazna Intencja (Przywódca Cylonów)</string>    
+    <string name="specialRules">Specjalne zasady</string>
+    <string name="onePlayerSR">Sprawdź specjalne zasady dla gry dla pojedynczego gracza!</string>
+    <string name="twoPlayersSR">Rozdaj 1 kartę Lojalności każdemu graczowi dopiero na początku fazy uśpionych agentów. Dodaj liczbę kart \&quot;Nie jesteś Cylonem\&quot; równą ilości zasobów w czerwonej strefie.</string>
+    <string name="closeBtn">Zamknij</string>
+    <string name="shipRaider">Raider</string>
+    <string name="shipHeavyRaider">Ciężki Raider</string>
+    <string name="shipViper2">Viper Mk II</string>
+    <string name="shipViper7">Viper Mk VII</string>
+    <string name="shipCenturion">Centurion</string>
+    <string name="shipCivilian">Statek cywilny</string>
+    <string name="shipGalactica">Galactica</string>
+    <string name="shipBasestar">Basestar</string>
+    <string name="nuke">Broń jądrowa</string>
+    <string name="attackRaider">3&#8211;8 = Zniszczony</string>
+    <string name="attackHeavyRaider">7&#8211;8 = Zniszczony</string>
+    <string name="attackViper2">5&#8211;7 = Uszkodzony\n8 = Zniszczony</string>
+    <string name="attackViper7">6&#8211;7 = Uszkodzony\n8 = Zniszczony</string>
+    <string name="attackCivilian">Automatycznie zniszczony\n(bez rzutu kością)</string>
+    <string name="attackGalactica"><i>Raider:</i>\n8 = Uszkodzony\n<i>Basestar</i>:\n4&#8211;8 = Uszkodzony</string>
+    <string name="attackBasestar"><i>Viper:</i>\n8 = Uszkodzony\n<i>Galactica:</i>\n5&#8211;8 = Uszkodzony</string>
+    <string name="attackNuke">1&#8211;2 = Basestar 2xUszkodzony\n3&#8211;6 = Basestar Zniszczony\n7 = Basestar Zniszczony\n+3 Raidery Zniszczone\n8 = Każdy statek w tym\nobszaże Zniszczony</string>
+    <string-array name="tokensModes">
+        <item>Uszkodzenia: Galactica</item>
+        <item>Uszkodzenia: Basestar</item>
+        <item>Uszkodzenia: Pegasus</item>
+        <item>Uszkodzenia: Galactica + Pegasus</item>
+    </string-array>
+    
+    <string name="losInfo1">*  Postać z dodatku \"Pegasus\"</string>
+    <string name="losInfo2">** Postać z dodatku \"Exodus\"</string>
+    <string name="losInfo3">*** Postać z dodatku \"Daybreak\"</string>
+
+</resources>

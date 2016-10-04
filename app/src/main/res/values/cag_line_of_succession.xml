@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="caglos1">1.\tLee \&quot;Apollo\&quot; Adama</string>
+    <string name="caglos2">2.\tKara \&quot;Starbuck\&quot; Thrace</string>
+    <string name="caglos3">3.\tLouanne \&quot;Kat\&quot; Katraine*</string>
+    <string name="caglos4">4.\tKarl \&quot;Helo\&quot; Agathon***</string>    
+    <string name="caglos5">5.\tSharon \&quot;Boomer\&quot; Valerii</string>
+    <string name="caglos6">6.\tBrendan \&quot;Hot Dog\&quot; Costanza***</string>
+    <string name="caglos7">7.\tSamuel T. Anders**</string>
+    <string name="caglos8">8.\tLee \&quot;Apollo\&quot; Adama***</string>
+    <string name="caglos9">9.\tKarl \&quot;Helo\&quot; Agathon</string>
+    <string name="caglos10">10.\tWilliam Adama</string>
+    <string name="caglos11">11.\tHelena Cain*</string>
+    <string name="caglos12">12.\tSaul Tigh</string>
+    <string name="caglos13">13.\tFelix Gaeta**</string>
+    <string name="caglos14">14.\tAnastasia \&quot;Dee\&quot; Dualla*</string>
+    <string name="caglos15">15.\tLouis Hoshi***</string>
+    <string name="caglos16">16.\tTom Zarek***</string>
+    <string name="caglos17">17.\t\&quot;Chief\&quot; Galen Tyrol</string>
+    <string name="caglos18">18.\tCallandra \&quot;Cally\&quot; Tyrol**</string>
+    <string name="caglos19">19.\tSherman \&quot;Doc\&quot; Cottle***</string>
+    <string name="caglos20">20.\tTom Zarek</string>
+    <string name="caglos21">21.\tEllen Tigh*</string>
+    <string name="caglos22">22.\tGaius Baltar***</string>
+    <string name="caglos23">23.\tGaius Baltar</string>
+    <string name="caglos24">24.\tTory Foster**</string>
+    <string name="caglos25">25.\tRomo Lampkin***</string>
+    <string name="caglos26">26.\tLaura Roslin</string>
+    
+</resources>

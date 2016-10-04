@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BSB:TBG Assistant</string>
+    <string name="logo">Logo</string>
+    <string name="legalStuff">BattleStar Galactica © USA Cable Entertainment LLC. All rights reserved.\nBoard game mechanics and rules © 2012 Fantasy Flight Publishing, Inc.</string>
+    <string name="info1">Programming &amp; additional graphics:\n&#9;&#9;&#9;Dominik Zieliński</string>
+    <string name="tokensTitle">Tokens</string>
+    <string name="tokensDesc">Generates random tokens</string>
+    <string name="attacksTitle">Attack Table</string>
+    <string name="attacksDesc">Die results required to destroy/damage ships</string>
+    <string name="loyaltyTitle">Loyalty Deck</string>
+    <string name="loyaltyDesc">Creates Loyalty Deck</string>
+    <string name="infoTitle">Informations</string>
+    <string name="infoDesc">About the application</string>
+    <string name="successionTitle">Lines of Succession</string>
+    <string name="successionDesc">Lines of Succession for President, Admiral &amp; CAG</string>
+    <string name="FFGLink"><a href="http://www.fantasyflightgames.com/bsg/">BSG:TBG Homepage</a></string>
+    <string name="rulesTitle">Rules Summary</string>
+    <string name="rulesDesc">Quick reference to major game rules</string>
+    <string-array name="playersCount">
+        <item>1 Player</item>
+        <item>2 Players</item>
+        <item>3 Players</item>
+        <item>4 Players</item>
+        <item>5 Players</item>
+        <item>6 Players</item>
+        <item>7 Players</item>
+    </string-array>
+    <string name="playersCountPrompt">Number of Players:</string>
+    <string name="optionsPrompt">Options:</string>
+    <string name="isBaltarInPlay">Gaius Baltar (Original) in game</string>
+    <string name="isValeriiInPlay">Sharon \"Boomer\" Valerii in game</string>
+    <string name="isCylonLeaderInPlay">Cylon Leader in game</string>
+    <string name="exodusRules">\"Exodus\" Expansion Rules</string>
+    <string name="daybreakRules">\"Daybreak\" Expansion Rules</string>
+    <string name="loyaltyBtn">Create Loyalty Deck</string>
+    <string name="presidentTitle">President</string>
+    <string name="admiralTitle">Admiral</string>
+    <string name="CAGTitle">CAG</string>
+    <string name="youAreACylon">\&quot;You Are a Cylon\&quot;</string>
+    <string name="youAreNotACylon">\&quot;You Are Not a Cylon\&quot;</string>
+    <string name="youAreASympathizer" >\&quot;You Are a Sympathizer\&quot;</string>
+    <string name="youAreAMutineer" >\&quot;You Are a Mutineer\&quot;</string>
+    <string name="agendaHostile">1x Hostile Agenda (Cylon Leader)</string>
+    <string name="agendaSympathetic">1x Sympathetic Agenda (Cylon Leader)</string>
+    <string name="motive">2x Motive (Cylon Leader)</string>    
+    <string name="specialRules">Special Rules</string>
+    <string name="onePlayerSR">Check special rules for one player game variant!</string>
+    <string name="twoPlayersSR">Deal 1 Loyalty card to each player only at the start of the sleeper phase. Add a number of \&quot;You Are Not a Cylon\&quot; cards to the Loyalty Deck equal to the number of resources that are red.</string>
+    <string name="closeBtn">Close</string>
+    <string name="shipRaider">Raider</string>
+    <string name="shipHeavyRaider">Heavy Raider</string>
+    <string name="shipViper2">Viper Mk II</string>
+    <string name="shipViper7">Viper Mk VII</string>
+    <string name="shipCenturion">Centurion</string>
+    <string name="shipCivilian">Civilian Ship</string>
+    <string name="shipGalactica">Galactica</string>
+    <string name="shipBasestar">Basestar</string>
+    <string name="nuke">Nuke</string>
+    <string name="attackRaider">3&#8211;8 = Destroyed</string>
+    <string name="attackHeavyRaider">7&#8211;8 = Destroyed</string>
+    <string name="attackViper2">5&#8211;7 = Damaged\n8 = Destroyed</string>
+    <string name="attackViper7">6&#8211;7 = Damaged\n8 = Destroyed</string>
+    <string name="attackCivilian">Automatically Destroyed\n(no die roll)</string>
+    <string name="attackGalactica"><i>With Raider:</i>\n8 = Damaged\n<i>With Basestar</i>:\n4&#8211;8 = Damaged</string>
+    <string name="attackBasestar"><i>With Viper:</i>\n8 = Damaged\n<i>With Galactica:</i>\n5&#8211;8 = Damaged</string>
+    <string name="attackNuke">1&#8211;2 = Basestar 2xDamaged\n3&#8211;6 = Basestar Destroyed\n7 = Basestar Destroyed\n+3 Raiders Destroyed\n8 = Every ship in the\nspace area Destroyed</string>
+    <string-array name="tokensModes">
+        <item>Galactica Damages</item>
+        <item>Basestar Damages</item>
+        <item>Pegasus Damages</item>
+        <item>Galactica &amp; Pegasus Damages</item>
+    </string-array>
+    
+    <string name="losInfo1">*  Character from \"Pegasus\" Expansion</string>
+    <string name="losInfo2">** Character from \"Exodus\" Expansion</string>
+    <string name="losInfo3">*** Character from \"Daybreak\" Expansion</string>
+
+</resources>

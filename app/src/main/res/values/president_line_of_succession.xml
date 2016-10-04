@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="plos1">1.\tLaura Roslin</string>
+    <string name="plos2">2.\tGaius Baltar</string>
+    <string name="plos3">3.\tLee \&quot;Apollo\&quot; Adama***</string>
+    <string name="plos4">4.\tTom Zarek</string>
+    <string name="plos5">5.\tRomo Lampkin***</string>
+    <string name="plos6">6.\tTory Foster**</string>
+    <string name="plos7">7.\tEllen Tigh*</string>
+    <string name="plos8">8.\tLee \&quot;Apollo\&quot; Adama</string>
+    <string name="plos9">9.\tTom Zarek***</string>
+    <string name="plos10">10.\tFelix Gaeta**</string>
+    <string name="plos11">11.\tWilliam Adama</string>
+    <string name="plos12">12.\tKarl \&quot;Helo\&quot; Agathon</string>
+    <string name="plos13">13.\t\&quot;Chief\&quot; Galen Tyrol</string>
+    <string name="plos14">14.\tGaius Baltar***</string>
+    <string name="plos15">15.\tCallandra \&quot;Cally\&quot; Tyrol**</string>
+    <string name="plos16">16.\tSherman \&quot;Doc\&quot; Cottle***</string>
+    <string name="plos17">17.\tHelena Cain*</string>
+    <string name="plos18">18.\tAnastasia \&quot;Dee\&quot; Dualla*</string>
+    <string name="plos19">19.\tLouis Hoshi***</string>
+    <string name="plos20">20.\tKarl \&quot;Helo\&quot; Agathon***</string>
+    <string name="plos21">21.\tSharon \&quot;Boomer\&quot; Valerii</string>
+    <string name="plos22">22.\tSaul Tigh</string>
+    <string name="plos23">23.\tBrendan \&quot;Hot Dog\&quot; Costanza***</string>
+    <string name="plos24">24.\tSamuel T. Anders**</string>
+    <string name="plos25">25.\tKara \&quot;Starbuck\&quot; Thrace</string>
+    <string name="plos26">26.\tLouanne \&quot;Kat\&quot; Katraine*</string>
+    
+</resources>

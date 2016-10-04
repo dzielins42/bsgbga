@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="0dp"
+    android:orientation="vertical" >
+
+    <!--<ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="230dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:contentDescription="Logo"
+        android:src="@drawable/bsg_logo" />-->
+    
+    <TabHost 
+	    android:id="@android:id/tabhost"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent">
+	    <LinearLayout
+	        android:orientation="vertical"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent">
+	        <TabWidget
+	            android:id="@android:id/tabs"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content" />
+	        <FrameLayout
+	            android:id="@android:id/tabcontent"
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent">
+	            
+	            <ScrollView
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:background="@android:color/transparent"
+			    	android:id="@+id/presidentLoS" >
+			        <LinearLayout
+			            android:layout_width="match_parent"
+			            android:layout_height="wrap_content"
+			            android:orientation="vertical" >            
+			            <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/presidentTitle"
+					        android:textAppearance="?android:attr/textAppearanceLarge"
+					        android:layout_marginBottom="5dip" />
+			            <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/plos1"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/plos2"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/plos3"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/plos4"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/plos5"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/plos6"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/plos7"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/plos8"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/plos9"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/plos10"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/plos11"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/plos12"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/plos13"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/plos14"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/plos15"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/plos16"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/plos17"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/plos18"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/plos19"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/plos20"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/plos21"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/plos22"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/plos23"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/plos24"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/plos25"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/plos26"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:paddingTop="10dp"
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/losInfo1"
+					        android:textAppearance="?android:attr/textAppearanceSmall" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/losInfo2"
+					        android:textAppearance="?android:attr/textAppearanceSmall" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/losInfo3"
+					        android:textAppearance="?android:attr/textAppearanceSmall" />           
+			        </LinearLayout>
+			    </ScrollView>   
+	            
+	            <ScrollView
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:background="@android:color/transparent"
+			    	android:id="@+id/admiralLoS" >
+			        <LinearLayout
+			            android:layout_width="match_parent"
+			            android:layout_height="wrap_content"
+			            android:orientation="vertical" >  
+			            <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/admiralTitle"
+					        android:textAppearance="?android:attr/textAppearanceLarge"
+					        android:layout_marginBottom="5dip" />         
+			            <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/alos1"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/alos2"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/alos3"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/alos4"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/alos5"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/alos6"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/alos7"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/alos8"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/alos9"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/alos10"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/alos11"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/alos12"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/alos13"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/alos14"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/alos15"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/alos16"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/alos17"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/alos18"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/alos19"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/alos20"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/alos21"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/alos22"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/alos23"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/alos24"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/alos25"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/alos26"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:paddingTop="10dp"
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/losInfo1"
+					        android:textAppearance="?android:attr/textAppearanceSmall" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/losInfo2"
+					        android:textAppearance="?android:attr/textAppearanceSmall" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/losInfo3"
+					        android:textAppearance="?android:attr/textAppearanceSmall" />           
+			        </LinearLayout>
+			    </ScrollView>
+			    
+	            <ScrollView
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:background="@android:color/transparent"
+			    	android:id="@+id/cagLoS" >
+			        <LinearLayout
+			            android:layout_width="match_parent"
+			            android:layout_height="wrap_content"
+			            android:orientation="vertical" >
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/CAGTitle"
+					        android:textAppearance="?android:attr/textAppearanceLarge"
+					        android:layout_marginBottom="5dip" />         
+			            <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/caglos1"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/caglos2"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/caglos3"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/caglos4"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/caglos5"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/caglos6"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/caglos7"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/caglos8"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/caglos9"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/caglos10"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/caglos11"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/caglos12"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/caglos13"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/caglos14"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/caglos15"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/caglos16"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/caglos17"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/caglos18"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/caglos19"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/caglos20"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/caglos21"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/caglos22"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/caglos23"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/caglos24"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/caglos25"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/caglos26"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+					    <TextView
+					        android:paddingTop="10dp"
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/losInfo1"
+					        android:textAppearance="?android:attr/textAppearanceSmall" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/losInfo2"
+					        android:textAppearance="?android:attr/textAppearanceSmall" />
+					    <TextView
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/losInfo3"
+					        android:textAppearance="?android:attr/textAppearanceSmall" />           
+			        </LinearLayout>
+			    </ScrollView>
+			    	            
+	        </FrameLayout>
+	    </LinearLayout>
+	</TabHost>
+
+</LinearLayout>

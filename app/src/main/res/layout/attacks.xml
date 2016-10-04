@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:id="@+id/presidentLoS" >
+    
+	<TableLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+	    
+	    <TableRow
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingBottom="15dip" >
+	
+	        <TextView
+	            android:layout_gravity="center"
+	            android:layout_weight="1"
+	            android:drawableTop="@drawable/raider"
+	            android:gravity="center"
+	            android:text="@string/shipRaider"
+	            android:textAppearance="?android:attr/textAppearanceSmall" />	
+	        <TextView
+	            android:layout_gravity="center"
+	            android:layout_weight="1"
+	            android:text="@string/attackRaider"
+	            android:textAppearance="?android:attr/textAppearanceSmall" />
+	        
+	    </TableRow>
+	
+	    <TableRow
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingBottom="15dip" >
+	
+	        <TextView
+	            android:layout_gravity="center"
+	            android:layout_weight="1"
+	            android:drawableTop="@drawable/heavy_raider"
+	            android:gravity="center"
+	            android:text="@string/shipHeavyRaider"
+	            android:textAppearance="?android:attr/textAppearanceSmall" />	
+	        <TextView
+	            android:layout_gravity="center"
+	            android:layout_weight="1"
+	            android:text="@string/attackHeavyRaider"
+	            android:textAppearance="?android:attr/textAppearanceSmall" />
+	        
+	    </TableRow>
+	
+	    <TableRow
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingBottom="15dip" >
+	        
+	        <TextView
+	            android:layout_gravity="center"
+	            android:layout_weight="1"
+	            android:drawableTop="@drawable/centurion"
+	            android:gravity="center"
+	            android:text="@string/shipCenturion"
+	            android:textAppearance="?android:attr/textAppearanceSmall" />	
+	        <TextView
+	            android:layout_gravity="center"
+	            android:layout_weight="1"
+	            android:text="@string/attackHeavyRaider"
+	            android:textAppearance="?android:attr/textAppearanceSmall" />
+	        
+	    </TableRow>
+	    <TableRow
+	        android:paddingBottom="15dip"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+	        
+	        <TextView
+	            android:layout_gravity="center"
+	            android:layout_weight="1"
+	            android:drawableTop="@drawable/viper2"
+	            android:gravity="center"
+	            android:text="@string/shipViper2"
+	            android:textAppearance="?android:attr/textAppearanceSmall" />	
+	        <TextView
+	            android:layout_gravity="center"
+	            android:layout_weight="1"
+	            android:text="@string/attackViper2"
+	            android:textAppearance="?android:attr/textAppearanceSmall" />
+	        
+	    </TableRow>
+	    <TableRow
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingBottom="15dip" >
+	        
+	        <TextView
+	            android:layout_weight="1"
+	            android:drawableTop="@drawable/viper7"
+	            android:layout_gravity="center"
+	            android:gravity="center"
+	            android:text="@string/shipViper7"
+	            android:textAppearance="?android:attr/textAppearanceSmall" />	
+	        <TextView
+	            android:layout_gravity="center"
+	            android:layout_weight="1"
+	            android:text="@string/attackViper7"
+	            android:textAppearance="?android:attr/textAppearanceSmall" />
+	        
+	    </TableRow>
+	    <TableRow
+	        android:layout_width="match_parent"
+	        android:paddingBottom="15dip"
+	        android:layout_height="wrap_content" >
+	        
+	        <TextView
+	            android:layout_weight="1"
+	            android:layout_gravity="center"
+	            android:drawableTop="@drawable/civs"
+	            android:gravity="center"
+	            android:text="@string/shipCivilian"
+	            android:textAppearance="?android:attr/textAppearanceSmall" />	
+	        <TextView
+	            android:layout_gravity="center"
+	            android:layout_weight="1"
+	            android:text="@string/attackCivilian"
+	            android:textAppearance="?android:attr/textAppearanceSmall" />
+	        
+	    </TableRow>
+	    <TableRow
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingBottom="15dip" >
+	        
+	        <TextView
+	            android:layout_weight="1"
+	            android:layout_gravity="center"
+	            android:drawableTop="@drawable/battlestar"
+	            android:gravity="center"
+	            android:text="@string/shipGalactica"
+	            android:textAppearance="?android:attr/textAppearanceSmall" />	
+	        <TextView
+	            android:layout_gravity="center"
+	            android:layout_weight="1"
+	            android:text="@string/attackGalactica"
+	            android:textAppearance="?android:attr/textAppearanceSmall" />
+	        
+	    </TableRow>
+	    <TableRow
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingBottom="15dip" >
+	        
+	        <TextView
+	            android:layout_gravity="center"
+	            android:layout_weight="1"
+	            android:drawableTop="@drawable/basestar"
+	            android:gravity="center"
+	            android:text="@string/shipBasestar"
+	            android:textAppearance="?android:attr/textAppearanceSmall" />
+	
+	        <TextView
+	            android:layout_gravity="center"
+	            android:layout_weight="1"
+	            android:text="@string/attackBasestar"
+	            android:textAppearance="?android:attr/textAppearanceSmall" />
+	        
+	    </TableRow>
+	    <TableRow
+	        android:layout_width="match_parent"
+	        android:paddingBottom="15dip"
+	        android:layout_height="wrap_content" >
+	        
+	        <TextView
+	            android:layout_gravity="center"
+	            android:layout_weight="1"
+	            android:drawableTop="@drawable/nuke"
+	            android:gravity="center"
+	            android:text="@string/nuke"
+	            android:textAppearance="?android:attr/textAppearanceSmall" />	
+	        <TextView
+	            android:layout_gravity="center"
+	            android:layout_weight="1"
+	            android:text="@string/attackNuke"
+	            android:textAppearance="?android:attr/textAppearanceSmall" />
+	        
+	    </TableRow>
+	
+	</TableLayout>
+
+</ScrollView>

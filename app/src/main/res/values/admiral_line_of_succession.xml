@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="alos1">1.\tHelena Cain*</string>
+    <string name="alos2">2.\tWilliam Adama</string>
+    <string name="alos3">3.\tSaul Tigh</string>
+    <string name="alos4">4.\tKarl \&quot;Helo\&quot; Agathon</string>
+    <string name="alos5">5.\tFelix Gaeta**</string>
+    <string name="alos6">6.\tLouis Hoshi***</string>
+    <string name="alos7">7.\tTom Zarek***</string>
+    <string name="alos8">8.\tLee \&quot;Apollo\&quot; Adama</string>
+    <string name="alos9">9.\tAnastasia \&quot;Dee\&quot; Dualla*</string>
+    <string name="alos10">10.\tKarl \&quot;Helo\&quot; Agathon***</string>
+    <string name="alos11">11.\tKara \&quot;Starbuck\&quot; Thrace</string>
+    <string name="alos12">12.\tLouanne \&quot;Kat\&quot; Katraine*</string>
+    <string name="alos13">13.\tSharon \&quot;Boomer\&quot; Valerii</string>
+    <string name="alos14">14.\tBrendan \&quot;Hot Dog\&quot; Costanza***</string>
+    <string name="alos15">15.\tSamuel T. Anders**</string>
+    <string name="alos16">16.\t\&quot;Chief\&quot; Galen Tyrol</string>
+    <string name="alos17">17.\tCallandra \&quot;Cally\&quot; Tyrol**</string>
+    <string name="alos18">18.\tSherman \&quot;Doc\&quot; Cottle***</string>
+    <string name="alos19">19.\tLee \&quot;Apollo\&quot; Adama***</string>
+    <string name="alos20">20.\tTom Zarek</string>
+    <string name="alos21">21.\tEllen Tigh*</string>
+    <string name="alos22">22.\tGaius Baltar</string>
+    <string name="alos23">23.\tGaius Baltar***</string>
+    <string name="alos24">24.\tRomo Lampkin***</string>
+    <string name="alos25">25.\tTory Foster**</string>
+    <string name="alos26">26.\tLaura Roslin</string>
+    
+    <string-array name="alos">
+	    <item>Helena Cain*</item>
+	    <item>William Adama</item>
+	    <item>Saul Tigh</item>
+	    <item>Karl \&quot;Helo\&quot; Agathon</item>
+	    <item>Felix Gaeta**</item>
+	    <item>Louis Hoshi***</item>
+	    <item>Tom Zarek***</item>
+	    <item>Lee \&quot;Apollo\&quot; Adama</item>
+	    <item>Anastasia \&quot;Dee\&quot; Dualla*</item>
+	    <item>Karl \&quot;Helo\&quot; Agathon***</item>
+	    <item>Kara \&quot;Starbuck\&quot; Thrace</item>
+	    <item>Louanne \&quot;Kat\&quot; Katraine*</item>
+	    <item>Sharon \&quot;Boomer\&quot; Valerii</item>
+	    <item>Brendan \&quot;Hot Dog\&quot; Costanza***</item>
+	    <item>Samuel T. Anders**</item>
+	    <item>\&quot;Chief\&quot; Galen Tyrol</item>
+	    <item>Callandra \&quot;Cally\&quot; Tyrol**</item>
+	    <item>Sherman \&quot;Doc\&quot; Cottle***</item>
+	    <item>Lee \&quot;Apollo\&quot; Adama***</item>
+	    <item>Tom Zarek</item>
+	    <item>Ellen Tigh*</item>
+	    <item>Gaius Baltar</item>
+	    <item>Gaius Baltar***</item>
+	    <item>Romo Lampkin***</item>
+	    <item>Tory Foster**</item>
+	    <item>Laura Roslin</item>
+    </string-array>
+    
+</resources>
