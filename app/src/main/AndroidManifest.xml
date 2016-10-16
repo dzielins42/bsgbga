@@ -1,43 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<manifest
     package="pl.dzielins42.bsgbga"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionName="1.0">
 
-    <uses-sdk android:minSdkVersion="10" />
+    <uses-sdk android:minSdkVersion="10"/>
 
     <application
         android:icon="@drawable/icon"
-        android:label="@string/app_name" >
+        android:label="@string/app_name">
         <activity
             android:name=".BSGBGAMainActivity"
             android:configChanges="orientation"
             android:label="@string/app_name"
-            android:theme="@style/bsg_theme" >
+            android:theme="@style/AppTheme">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
-        </activity>        
-        <activity 
+        </activity>
+        <activity
             android:name=".BSGBGAInfoActivity"
-            android:theme="@android:style/Theme.Dialog" />
-       <!--  <activity 
-            android:name=".BSGBGATokensFragment"
-            android:theme="@style/bsg_theme" />
-        <activity 
-            android:name=".BSGBGASuccessionFragment"
-            android:theme="@style/bsg_theme" />
-        <activity 
-            android:name=".BSGBGALoyaltyFragment"
-            android:theme="@style/bsg_theme" />
-        <activity 
-            android:name=".BSGBGAAttacksFragment"
-            android:theme="@style/bsg_theme" />
-        <activity 
-            android:name=".BSGBGARulesActivity"
-            android:theme="@style/bsg_theme" /> -->
+            android:theme="@android:style/Theme.Dialog"/>
     </application>
-
 </manifest>
