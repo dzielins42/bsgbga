@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="menu_titles">
+        <item>@string/tokensTitle</item>
+        <item>@string/successionTitle</item>
+        <item>@string/loyaltyTitle</item>
+        <item>@string/attacksTitle</item>
+    </array>
+    <array name="menu_descriptions">
+        <item>@string/tokensDesc</item>
+        <item>@string/successionDesc</item>
+        <item>@string/loyaltyDesc</item>
+        <item>@string/attacksDesc</item>
+    </array>
+</resources>

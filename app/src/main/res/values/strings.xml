@@ -2,19 +2,12 @@
 <resources>
 
     <string name="app_name">BSB:TBG Assistant</string>
+    <string name="title_item_list">Items</string>
     <string name="logo">Logo</string>
     <string name="legalStuff">BattleStar Galactica © USA Cable Entertainment LLC. All rights reserved.\nBoard game mechanics and rules © 2012 Fantasy Flight Publishing, Inc.</string>
     <string name="info1">Programming &amp; additional graphics:\n&#9;&#9;&#9;Dominik Zieliński</string>
-    <string name="tokensTitle">Tokens</string>
-    <string name="tokensDesc">Generates random tokens</string>
-    <string name="attacksTitle">Attack Table</string>
-    <string name="attacksDesc">Die results required to destroy/damage ships</string>
-    <string name="loyaltyTitle">Loyalty Deck</string>
-    <string name="loyaltyDesc">Creates Loyalty Deck</string>
     <string name="infoTitle">Informations</string>
     <string name="infoDesc">About the application</string>
-    <string name="successionTitle">Lines of Succession</string>
-    <string name="successionDesc">Lines of Succession for President, Admiral &amp; CAG</string>
     <string name="FFGLink"><a href="http://www.fantasyflightgames.com/bsg/">BSG:TBG Homepage</a></string>
     <string name="rulesTitle">Rules Summary</string>
     <string name="rulesDesc">Quick reference to major game rules</string>
@@ -76,5 +69,15 @@
     <string name="losInfo1">*  Character from \"Pegasus\" Expansion</string>
     <string name="losInfo2">** Character from \"Exodus\" Expansion</string>
     <string name="losInfo3">*** Character from \"Daybreak\" Expansion</string>
+
+    <!--Menu-->
+    <string name="tokensTitle">Tokens</string>
+    <string name="tokensDesc">Generates random tokens</string>
+    <string name="attacksTitle">Attack Table</string>
+    <string name="attacksDesc">Die results required to destroy/damage ships</string>
+    <string name="loyaltyTitle">Loyalty Deck</string>
+    <string name="loyaltyDesc">Creates Loyalty Deck</string>
+    <string name="successionTitle">Lines of Succession</string>
+    <string name="successionDesc">Lines of Succession for President, Admiral &amp; CAG</string>
 
 </resources>
