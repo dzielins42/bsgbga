@@ -34,7 +34,7 @@ public class MainActivity extends AbsMasterDetailActivity {
             case 0:
                 return new BSGBGATokensFragment();
             case 1:
-                return new BSGBGASuccessionFragment();
+                return new LinesOfSuccessionFragment();
             case 2:
                 return new BSGBGALoyaltyFragment();
             case 3:

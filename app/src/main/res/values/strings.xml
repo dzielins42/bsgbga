@@ -28,16 +28,13 @@
     <string name="exodusRules">\"Exodus\" Expansion Rules</string>
     <string name="daybreakRules">\"Daybreak\" Expansion Rules</string>
     <string name="loyaltyBtn">Create Loyalty Deck</string>
-    <string name="presidentTitle">President</string>
-    <string name="admiralTitle">Admiral</string>
-    <string name="CAGTitle">CAG</string>
     <string name="youAreACylon">\&quot;You Are a Cylon\&quot;</string>
     <string name="youAreNotACylon">\&quot;You Are Not a Cylon\&quot;</string>
-    <string name="youAreASympathizer" >\&quot;You Are a Sympathizer\&quot;</string>
-    <string name="youAreAMutineer" >\&quot;You Are a Mutineer\&quot;</string>
+    <string name="youAreASympathizer">\&quot;You Are a Sympathizer\&quot;</string>
+    <string name="youAreAMutineer">\&quot;You Are a Mutineer\&quot;</string>
     <string name="agendaHostile">1x Hostile Agenda (Cylon Leader)</string>
     <string name="agendaSympathetic">1x Sympathetic Agenda (Cylon Leader)</string>
-    <string name="motive">2x Motive (Cylon Leader)</string>    
+    <string name="motive">2x Motive (Cylon Leader)</string>
     <string name="specialRules">Special Rules</string>
     <string name="onePlayerSR">Check special rules for one player game variant!</string>
     <string name="twoPlayersSR">Deal 1 Loyalty card to each player only at the start of the sleeper phase. Add a number of \&quot;You Are Not a Cylon\&quot; cards to the Loyalty Deck equal to the number of resources that are red.</string>
@@ -65,7 +62,7 @@
         <item>Pegasus Damages</item>
         <item>Galactica &amp; Pegasus Damages</item>
     </string-array>
-    
+
     <string name="losInfo1">*  Character from \"Pegasus\" Expansion</string>
     <string name="losInfo2">** Character from \"Exodus\" Expansion</string>
     <string name="losInfo3">*** Character from \"Daybreak\" Expansion</string>
@@ -79,5 +76,39 @@
     <string name="loyaltyDesc">Creates Loyalty Deck</string>
     <string name="successionTitle">Lines of Succession</string>
     <string name="successionDesc">Lines of Succession for President, Admiral &amp; CAG</string>
+
+    <!--Lines of Succession-->
+    <string name="presidentTitle">President</string>
+    <string name="admiralTitle">Admiral</string>
+    <string name="CAGTitle">CAG</string>
+    <string name="los_format">%1$d. %2$s</string>
+
+    <!--Characters-->
+    <string name="char_chief_galen_tyrol">"Chief" Galen Tyrol</string>
+    <string name="char_anastasia_dee_dualla_pegasus">Anastasia "Dee" Dualla*</string>
+    <string name="char_brendan_hot_dog_costanza_daybreak">Brendan "Hot Dog" Costanza***</string>
+    <string name="char_callandra_cally_tyrol_exodus">Callandra "Cally" Tyrol**</string>
+    <string name="char_ellen_tigh_pegasus">Ellen Tigh*</string>
+    <string name="char_felix_gaeta_exodus">Felix Gaeta**</string>
+    <string name="char_gaius_baltar">Gaius Baltar</string>
+    <string name="char_gaius_baltar_daybreak">Gaius Baltar***</string>
+    <string name="char_helena_cain_pegasus">Helena Cain*</string>
+    <string name="char_kara_starbuck_thrace">Kara "Starbuck" Thrace</string>
+    <string name="char_karl_helo_agathon">Karl "Helo" Agathon</string>
+    <string name="char_karl_helo_agathon_daybreak">Karl "Helo" Agathon***</string>
+    <string name="char_laura_roslin">Laura Roslin</string>
+    <string name="char_lee_apollo_adama">Lee "Apollo" Adama</string>
+    <string name="char_lee_apollo_adama_daybreak">Lee "Apollo" Adama***</string>
+    <string name="char_louanne_kat_katraine_pegasus">Louanne "Kat" Katraine*</string>
+    <string name="char_louis_hoshi_daybreak">Louis Hoshi***</string>
+    <string name="char_romo_lampkin_daybreak">Romo Lampkin***</string>
+    <string name="char_samuel_t_anders_exodus">Samuel T. Anders**</string>
+    <string name="char_saul_tigh">Saul Tigh</string>
+    <string name="char_sharon_boomer_valerii">Sharon "Boomer" Valerii</string>
+    <string name="char_sherman_doc_cottle_daybreak">Sherman "Doc" Cottle***</string>
+    <string name="char_tom_zarek">Tom Zarek</string>
+    <string name="char_tom_zarek_daybreak">Tom Zarek***</string>
+    <string name="char_tory_foster_exodus">Tory Foster**</string>
+    <string name="char_william_adama">William Adama</string>
 
 </resources>

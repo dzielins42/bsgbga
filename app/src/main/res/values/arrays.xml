@@ -1,15 +1,105 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <array name="menu_titles">
         <item>@string/tokensTitle</item>
         <item>@string/successionTitle</item>
         <item>@string/loyaltyTitle</item>
         <item>@string/attacksTitle</item>
     </array>
+
     <array name="menu_descriptions">
         <item>@string/tokensDesc</item>
         <item>@string/successionDesc</item>
         <item>@string/loyaltyDesc</item>
         <item>@string/attacksDesc</item>
     </array>
+
+    <array name="los_admiral">
+        <item>@string/char_helena_cain_pegasus</item>
+        <item>@string/char_william_adama</item>
+        <item>@string/char_saul_tigh</item>
+        <item>@string/char_karl_helo_agathon</item>
+        <item>@string/char_felix_gaeta_exodus</item>
+        <item>@string/char_louis_hoshi_daybreak</item>
+        <item>@string/char_tom_zarek_daybreak</item>
+        <item>@string/char_lee_apollo_adama</item>
+        <item>@string/char_anastasia_dee_dualla_pegasus</item>
+        <item>@string/char_karl_helo_agathon_daybreak</item>
+        <item>@string/char_kara_starbuck_thrace</item>
+        <item>@string/char_louanne_kat_katraine_pegasus</item>
+        <item>@string/char_sharon_boomer_valerii</item>
+        <item>@string/char_brendan_hot_dog_costanza_daybreak</item>
+        <item>@string/char_samuel_t_anders_exodus</item>
+        <item>@string/char_chief_galen_tyrol</item>
+        <item>@string/char_callandra_cally_tyrol_exodus</item>
+        <item>@string/char_sherman_doc_cottle_daybreak</item>
+        <item>@string/char_lee_apollo_adama_daybreak</item>
+        <item>@string/char_tom_zarek</item>
+        <item>@string/char_ellen_tigh_pegasus</item>
+        <item>@string/char_gaius_baltar</item>
+        <item>@string/char_gaius_baltar_daybreak</item>
+        <item>@string/char_romo_lampkin_daybreak</item>
+        <item>@string/char_tory_foster_exodus</item>
+        <item>@string/char_laura_roslin</item>
+    </array>
+
+    <array name="los_cag">
+        <item>@string/char_lee_apollo_adama</item>
+        <item>@string/char_kara_starbuck_thrace</item>
+        <item>@string/char_louanne_kat_katraine_pegasus</item>
+        <item>@string/char_karl_helo_agathon_daybreak</item>
+        <item>@string/char_sharon_boomer_valerii</item>
+        <item>@string/char_brendan_hot_dog_costanza_daybreak</item>
+        <item>@string/char_samuel_t_anders_exodus</item>
+        <item>@string/char_lee_apollo_adama_daybreak</item>
+        <item>@string/char_karl_helo_agathon</item>
+        <item>@string/char_william_adama</item>
+        <item>@string/char_helena_cain_pegasus</item>
+        <item>@string/char_saul_tigh</item>
+        <item>@string/char_felix_gaeta_exodus</item>
+        <item>@string/char_anastasia_dee_dualla_pegasus</item>
+        <item>@string/char_louis_hoshi_daybreak</item>
+        <item>@string/char_tom_zarek_daybreak</item>
+        <item>@string/char_chief_galen_tyrol</item>
+        <item>@string/char_callandra_cally_tyrol_exodus</item>
+        <item>@string/char_sherman_doc_cottle_daybreak</item>
+        <item>@string/char_tom_zarek</item>
+        <item>@string/char_ellen_tigh_pegasus</item>
+        <item>@string/char_gaius_baltar_daybreak</item>
+        <item>@string/char_gaius_baltar</item>
+        <item>@string/char_tory_foster_exodus</item>
+        <item>@string/char_romo_lampkin_daybreak</item>
+        <item>@string/char_laura_roslin</item>
+    </array>
+
+    <array name="los_president">
+        <item>@string/char_laura_roslin</item>
+        <item>@string/char_gaius_baltar</item>
+        <item>@string/char_lee_apollo_adama_daybreak</item>
+        <item>@string/char_tom_zarek</item>
+        <item>@string/char_romo_lampkin_daybreak</item>
+        <item>@string/char_tory_foster_exodus</item>
+        <item>@string/char_ellen_tigh_pegasus</item>
+        <item>@string/char_lee_apollo_adama</item>
+        <item>@string/char_tom_zarek_daybreak</item>
+        <item>@string/char_felix_gaeta_exodus</item>
+        <item>@string/char_william_adama</item>
+        <item>@string/char_karl_helo_agathon</item>
+        <item>@string/char_chief_galen_tyrol</item>
+        <item>@string/char_gaius_baltar_daybreak</item>
+        <item>@string/char_callandra_cally_tyrol_exodus</item>
+        <item>@string/char_sherman_doc_cottle_daybreak</item>
+        <item>@string/char_helena_cain_pegasus</item>
+        <item>@string/char_anastasia_dee_dualla_pegasus</item>
+        <item>@string/char_louis_hoshi_daybreak</item>
+        <item>@string/char_karl_helo_agathon_daybreak</item>
+        <item>@string/char_sharon_boomer_valerii</item>
+        <item>@string/char_saul_tigh</item>
+        <item>@string/char_brendan_hot_dog_costanza_daybreak</item>
+        <item>@string/char_samuel_t_anders_exodus</item>
+        <item>@string/char_kara_starbuck_thrace</item>
+        <item>@string/char_louanne_kat_katraine_pegasus</item>
+    </array>
+
 </resources>
