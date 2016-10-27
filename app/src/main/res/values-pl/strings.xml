@@ -5,16 +5,16 @@
     <string name="logo">Logo</string>
     <string name="legalStuff">BattleStar Galactica © USA Cable Entertainment LLC. All rights reserved.\nBoard game mechanics and rules © 2012 Fantasy Flight Publishing, Inc.</string>
     <string name="info1">Programowanie &amp; dodatkowa grafika:\n&#9;&#9;&#9;Dominik Zieliński</string>
-    <string name="tokensTitle">Żetony</string>
-    <string name="tokensDesc">Generator losowych żetonów</string>
-    <string name="attacksTitle">Tabela Ataku</string>
-    <string name="attacksDesc">Rzuty wymagane do zniszczenia/uszkodzenia statków</string>
-    <string name="loyaltyTitle">Talia Lojalności</string>
-    <string name="loyaltyDesc">Składanie Talii Lojalności</string>
+    <string name="menu_title_damage_tokens">Żetony</string>
+    <string name="menu_desc_damage_tokens">Generator losowych żetonów</string>
+    <string name="menu_title_attack_table">Tabela Ataku</string>
+    <string name="menu_desc_attack_table">Rzuty wymagane do zniszczenia/uszkodzenia statków</string>
+    <string name="menu_title_loyalty_deck">Talia Lojalności</string>
+    <string name="menu_desc_loyalty_deck">Składanie Talii Lojalności</string>
     <string name="infoTitle">Informacje</string>
     <string name="infoDesc">O aplikacji</string>
-    <string name="successionTitle">Linie Sukcesji</string>
-    <string name="successionDesc">Linie Sukcesji tytułów Prezydenta, Admirała i CAG</string>
+    <string name="menu_title_los">Linie Sukcesji</string>
+    <string name="menu_desc_los">Linie Sukcesji tytułów Prezydenta, Admirała i CAG</string>
     <string name="FFGLink"><a href="http://www.fantasyflightgames.com/bsg/">BSG:TBG Strona Główna</a></string>
     <string name="rulesTitle">Streszczenie Zasad</string>
     <string name="rulesDesc">Krótkie streszczenie najważniejszych zasad</string>
@@ -35,9 +35,9 @@
     <string name="exodusRules">Zasady rozszerzenia \"Exodus\"</string>
     <string name="daybreakRules">Zasady rozszerzenia \"Daybreak\"</string>
     <string name="loyaltyBtn">Złóż Talię Lojalności</string>
-    <string name="presidentTitle">Prezydent</string>
-    <string name="admiralTitle">Admirał</string>
-    <string name="CAGTitle">CAG</string>
+    <string name="los_title_president">Prezydent</string>
+    <string name="los_title_admiral">Admirał</string>
+    <string name="los_title_cag">CAG</string>
     <string name="youAreACylon">\&quot;Jesteś Cylonem\&quot;</string>
     <string name="youAreNotACylon">\&quot;Nie jesteś Cylonem\&quot;</string>
     <string name="youAreASympathizer" >\&quot;Jesteś Sympatykiem\&quot;</string>

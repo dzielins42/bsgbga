@@ -68,19 +68,25 @@
     <string name="losInfo3">*** Character from \"Daybreak\" Expansion</string>
 
     <!--Menu-->
-    <string name="tokensTitle">Tokens</string>
-    <string name="tokensDesc">Generates random tokens</string>
-    <string name="attacksTitle">Attack Table</string>
-    <string name="attacksDesc">Die results required to destroy/damage ships</string>
-    <string name="loyaltyTitle">Loyalty Deck</string>
-    <string name="loyaltyDesc">Creates Loyalty Deck</string>
-    <string name="successionTitle">Lines of Succession</string>
-    <string name="successionDesc">Lines of Succession for President, Admiral &amp; CAG</string>
+    <string name="menu_title_damage_tokens">Tokens</string>
+    <string name="menu_desc_damage_tokens">Generates random tokens</string>
+    <string name="menu_title_attack_table">Attack Table</string>
+    <string name="menu_desc_attack_table">Die results required to destroy/damage ships</string>
+    <string name="menu_title_loyalty_deck">Loyalty Deck</string>
+    <string name="menu_desc_loyalty_deck">Creates Loyalty Deck</string>
+    <string name="menu_title_los">Lines of Succession</string>
+    <string name="menu_desc_los">Lines of Succession for President, Admiral &amp; CAG</string>
+
+    <!--Plurals-->
+    <plurals name="players_count">
+        <item quantity="one">%d Player</item>
+        <item quantity="other">%d Players</item>
+    </plurals>
 
     <!--Lines of Succession-->
-    <string name="presidentTitle">President</string>
-    <string name="admiralTitle">Admiral</string>
-    <string name="CAGTitle">CAG</string>
+    <string name="los_title_president">President</string>
+    <string name="los_title_admiral">Admiral</string>
+    <string name="los_title_cag">CAG</string>
     <string name="los_format">%1$d. %2$s</string>
 
     <!--Characters-->

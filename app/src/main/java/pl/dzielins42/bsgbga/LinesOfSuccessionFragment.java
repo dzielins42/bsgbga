@@ -41,11 +41,11 @@ public class LinesOfSuccessionFragment extends Fragment {
             mLosFragments = new ArrayList<>(3);
             LineOfSuccessionFragment presidentLosFragment, admiralLosFragment, cagLosFragment;
             presidentLosFragment = LineOfSuccessionFragment.newInstance(R.array.los_president, R
-                    .string.presidentTitle);
+                    .string.los_title_president);
             admiralLosFragment = LineOfSuccessionFragment.newInstance(R.array.los_admiral, R
-                    .string.admiralTitle);
+                    .string.los_title_admiral);
             cagLosFragment = LineOfSuccessionFragment.newInstance(R.array.los_cag, R.string
-                    .CAGTitle);
+                    .los_title_cag);
             mLosFragments.add(presidentLosFragment);
             mLosFragments.add(admiralLosFragment);
             mLosFragments.add(cagLosFragment);
@@ -58,17 +58,17 @@ public class LinesOfSuccessionFragment extends Fragment {
                 if (tabs.getTabAt(0) != null) {
                     //noinspection ConstantConditions
                     setupTab(tabs.getTabAt(0), R.layout.los_tab, R.drawable.president_icon, R
-                            .string.presidentTitle);
+                            .string.los_title_president);
                 }
                 if (tabs.getTabAt(1) != null) {
                     //noinspection ConstantConditions
                     setupTab(tabs.getTabAt(1), R.layout.los_tab, R.drawable.admiral_icon, R
-                            .string.admiralTitle);
+                            .string.los_title_admiral);
                 }
                 if (tabs.getTabAt(2) != null) {
                     //noinspection ConstantConditions
                     setupTab(tabs.getTabAt(2), R.layout.los_tab, R.drawable.cag_icon, R.string
-                            .CAGTitle);
+                            .los_title_cag);
                 }
             }
         } else {

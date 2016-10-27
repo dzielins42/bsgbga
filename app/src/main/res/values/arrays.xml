@@ -2,17 +2,17 @@
 <resources>
 
     <array name="menu_titles">
-        <item>@string/tokensTitle</item>
-        <item>@string/successionTitle</item>
-        <item>@string/loyaltyTitle</item>
-        <item>@string/attacksTitle</item>
+        <item>@string/menu_title_damage_tokens</item>
+        <item>@string/menu_title_los</item>
+        <item>@string/menu_title_loyalty_deck</item>
+        <item>@string/menu_title_attack_table</item>
     </array>
 
     <array name="menu_descriptions">
-        <item>@string/tokensDesc</item>
-        <item>@string/successionDesc</item>
-        <item>@string/loyaltyDesc</item>
-        <item>@string/attacksDesc</item>
+        <item>@string/menu_desc_damage_tokens</item>
+        <item>@string/menu_desc_los</item>
+        <item>@string/menu_desc_loyalty_deck</item>
+        <item>@string/menu_desc_attack_table</item>
     </array>
 
     <array name="los_admiral">
