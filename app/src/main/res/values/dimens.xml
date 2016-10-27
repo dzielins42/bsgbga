@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="los_tab_icon_size">48dp</dimen>
+    <dimen name="los_tab_padding">8dp</dimen>
+    <dimen name="los_tab_height">96dp</dimen>
+</resources>
