@@ -27,14 +27,14 @@
         <item>6 Graczy</item>
         <item>7 Graczy</item>
     </string-array>
-    <string name="playersCountPrompt">Liczba Graczy:</string>
-    <string name="optionsPrompt">Możliwości:</string>
-    <string name="isBaltarInPlay">Gaius Baltar (Wersja podstawowa) w grze</string>
-    <string name="isValeriiInPlay">Sharon \"Boomer\" Valerii w grze</string>
-    <string name="isCylonLeaderInPlay">Przywódca Cylonów w grze</string>
-    <string name="exodusRules">Zasady rozszerzenia \"Exodus\"</string>
-    <string name="daybreakRules">Zasady rozszerzenia \"Daybreak\"</string>
-    <string name="loyaltyBtn">Złóż Talię Lojalności</string>
+    <string name="loyalty_label_players_count">Liczba Graczy:</string>
+    <string name="loyalty_label_options">Możliwości:</string>
+    <string name="loyalty_label_baltar_in_play">Gaius Baltar (Wersja podstawowa) w grze</string>
+    <string name="loyalty_label_boomer_in_play">Sharon \"Boomer\" Valerii w grze</string>
+    <string name="loyalty_label_cylon_leader_in_play">Przywódca Cylonów w grze</string>
+    <string name="loyalty_label_exodus_rules">Zasady rozszerzenia \"Exodus\"</string>
+    <string name="loyalty_label_daybreak_rules">Zasady rozszerzenia \"Daybreak\"</string>
+    <string name="loyalty_label_create_deck">Złóż Talię Lojalności</string>
     <string name="los_title_president">Prezydent</string>
     <string name="los_title_admiral">Admirał</string>
     <string name="los_title_cag">CAG</string>

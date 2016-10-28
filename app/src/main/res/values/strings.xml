@@ -20,14 +20,6 @@
         <item>6 Players</item>
         <item>7 Players</item>
     </string-array>
-    <string name="playersCountPrompt">Number of Players:</string>
-    <string name="optionsPrompt">Options:</string>
-    <string name="isBaltarInPlay">Gaius Baltar (Original) in game</string>
-    <string name="isValeriiInPlay">Sharon \"Boomer\" Valerii in game</string>
-    <string name="isCylonLeaderInPlay">Cylon Leader in game</string>
-    <string name="exodusRules">\"Exodus\" Expansion Rules</string>
-    <string name="daybreakRules">\"Daybreak\" Expansion Rules</string>
-    <string name="loyaltyBtn">Create Loyalty Deck</string>
     <string name="youAreACylon">\&quot;You Are a Cylon\&quot;</string>
     <string name="youAreNotACylon">\&quot;You Are Not a Cylon\&quot;</string>
     <string name="youAreASympathizer">\&quot;You Are a Sympathizer\&quot;</string>
@@ -77,11 +69,29 @@
     <string name="menu_title_los">Lines of Succession</string>
     <string name="menu_desc_los">Lines of Succession for President, Admiral &amp; CAG</string>
 
-    <!--Plurals-->
+    <!--Loyalty Deck-->
+    <string name="loyalty_label_players_count">Number of Players:</string>
+    <string name="loyalty_label_options">Options:</string>
+    <string name="loyalty_label_baltar_in_play">Gaius Baltar (Original) in game</string>
+    <string name="loyalty_label_boomer_in_play">Sharon \"Boomer\" Valerii in game</string>
+    <string name="loyalty_label_cylon_leader_in_play">Cylon Leader in game</string>
+    <string name="loyalty_label_exodus_rules">\"Exodus\" Expansion Rules</string>
+    <string name="loyalty_label_daybreak_rules">\"Daybreak\" Expansion Rules</string>
+    <string name="loyalty_label_create_deck">Create Loyalty Deck</string>
     <plurals name="players_count">
         <item quantity="one">%d Player</item>
         <item quantity="other">%d Players</item>
     </plurals>
+
+    <!--Loyalty-->
+    <string name="loyalty_you_are_not_a_cylon">%d "You Are Not a Cylon" cards</string>
+    <string name="loyalty_you_are_a_cylon">%d "You Are a Cylon" cards</string>
+    <string name="loyalty_you_are_a_sympathizer_variant">"You Are a Sympathizer/Mutineer"
+        card</string>
+    <string name="loyalty_cylon_leader_motive">%d Motive cards for Cylon Leader</string>
+    <string name="loyalty_cylon_leader_hostile_agenda">Hostile Agenda card for Cylon Leader</string>
+    <string name="loyalty_cylon_leader_sympathetic_agenda">Sympathetic Agenda card for Cylon
+        Leader</string>
 
     <!--Lines of Succession-->
     <string name="los_title_president">President</string>
