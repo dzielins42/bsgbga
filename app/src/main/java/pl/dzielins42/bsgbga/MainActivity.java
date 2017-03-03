@@ -32,7 +32,7 @@ public class MainActivity extends AbsMasterDetailActivity {
         int id = (int) itemId;
         switch (id) {
             case 0:
-                return new BSGBGATokensFragment();
+                return new TokensFragment();
             case 1:
                 return new LinesOfSuccessionFragment();
             case 2:

@@ -127,4 +127,10 @@
     <string name="char_tory_foster_exodus">Tory Foster**</string>
     <string name="char_william_adama">William Adama</string>
 
+    <!--Token Modes-->
+    <string name="token_dmg_galactica">Damages: Galactica</string>
+    <string name="token_dmg_basestar">Damages: Basestar</string>
+    <string name="token_dmg_pegasus">Damages: Pegasus</string>
+    <string name="token_dmg_galactica_pegasus">Damages: Galactica &amp; Pegasus</string>
+
 </resources>

@@ -102,4 +102,11 @@
         <item>@string/char_louanne_kat_katraine_pegasus</item>
     </array>
 
+    <string-array name="token_modes">
+        <item>@string/token_dmg_galactica</item>
+        <item>@string/token_dmg_basestar</item>
+        <item>@string/token_dmg_pegasus</item>
+        <item>@string/token_dmg_galactica_pegasus</item>
+    </string-array>
+
 </resources>

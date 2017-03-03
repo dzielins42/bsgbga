@@ -76,4 +76,10 @@
     <string name="losInfo2">** Postać z dodatku \"Exodus\"</string>
     <string name="losInfo3">*** Postać z dodatku \"Daybreak\"</string>
 
+    <!--Token Modes-->
+    <string name="token_dmg_galactica">Uszkodzenia: Galactica</string>
+    <string name="token_dmg_basestar">Uszkodzenia: Basestar</string>
+    <string name="token_dmg_pegasus">Uszkodzenia: Pegasus</string>
+    <string name="token_dmg_galactica_pegasus">Uszkodzenia: Galactica i Pegasus</string>
+
 </resources>
