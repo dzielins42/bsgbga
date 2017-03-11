@@ -22,6 +22,6 @@ dependencies {
     compile 'com.android.support:appcompat-v7:23.4.0'
     compile 'com.android.support:support-v4:23.4.0'
     compile 'com.android.support:recyclerview-v7:23.4.0'
-    compile 'com.github.dzielins42:master-detail-flow-revised:fba5284f45'
+    compile 'com.github.dzielins42:master-detail-flow-revised:74549aa701'
     compile 'com.android.support:design:23.4.0'
 }

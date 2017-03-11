@@ -1,7 +1,10 @@
 package pl.dzielins42.bsgbga;
 
 import android.os.Bundle;
+import android.os.Parcel;
+import android.os.Parcelable;
 import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -26,21 +29,51 @@ public class TokensFragment extends Fragment implements AdapterView.OnItemSelect
 
     private static final String TAG = TokensFragment.class.getSimpleName();
 
+    private static final String KEY_TOKEN_CONFIG = "pl.dzielins42.bsgbga.key.TOKEN_CONFIG";
+    private static final String KEY_MODE_SELECTION = "pl.dzielins42.bsgbga.key.MODE_SELECTION";
+
     private enum TokenType {GALACTICA_DMG, BASESTAR_DMG, PEGASUS_DMG, GALACTICA_PEGASUS_DMG}
 
     private GridLayoutManager mGridLayoutManager;
     private Spinner mSpinner;
     private RecyclerView mRecyclerView;
-    private List<Token> mTokens;
+    private ArrayList<Token> mTokens;
+    private boolean mUseSavedTokenConfig = false;
+    private int mSavedSelection = 0;
+
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        Log.d(TAG, "onCreate");
+    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle
             savedInstanceState) {
+        Log.d(TAG, "onCreateView");
         View rootView = inflater.inflate(R.layout.fragment_tokens, container, false);
+
+        if (savedInstanceState != null && savedInstanceState.containsKey(KEY_TOKEN_CONFIG)) {
+            mTokens = savedInstanceState.getParcelableArrayList(KEY_TOKEN_CONFIG);
+            mUseSavedTokenConfig = true;
+            mSavedSelection = savedInstanceState.getInt(KEY_MODE_SELECTION, mSavedSelection);
+        }
 
         setupView(rootView);
 
         return rootView;
+    }
+
+    @Override
+    public void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+
+        // Save current configuration of tokens
+        outState.putParcelableArrayList(KEY_TOKEN_CONFIG, mTokens);
+        // Save currently selected mode
+        if (mSpinner != null) {
+            outState.putInt(KEY_MODE_SELECTION, mSpinner.getSelectedItemPosition());
+        }
     }
 
     private void setupView(@NonNull View rootView) {
@@ -54,6 +87,7 @@ public class TokensFragment extends Fragment implements AdapterView.OnItemSelect
         }
         mSpinner = (Spinner) rootView.findViewById(R.id.sp_mode);
         if (mSpinner != null) {
+            mSpinner.setSelection(mSavedSelection);
             mSpinner.setOnItemSelectedListener(this);
         } else {
             Log.e(TAG, "setupView: Cannot find RecyclerView");
@@ -102,8 +136,12 @@ public class TokensFragment extends Fragment implements AdapterView.OnItemSelect
                 break;
         }
         mGridLayoutManager.setSpanCount(cols);
-        mTokens = getTokens(tokenType);
-        randomizeTokens();
+        if (!mUseSavedTokenConfig) {
+            mTokens = getTokens(tokenType);
+            randomizeTokens();
+        } else {
+            mUseSavedTokenConfig = false;
+        }
         mRecyclerView.setAdapter(new SimpleItemRecyclerViewAdapter());
         mRecyclerView.getAdapter().notifyDataSetChanged();
     }
@@ -113,7 +151,7 @@ public class TokensFragment extends Fragment implements AdapterView.OnItemSelect
         Log.d(TAG, "onNothingSelected");
     }
 
-    private List<Token> getTokens(TokenType type) {
+    private ArrayList<Token> getTokens(TokenType type) {
         int back = 0;
         int[] fronts = null;
         switch (type) {
@@ -167,7 +205,7 @@ public class TokensFragment extends Fragment implements AdapterView.OnItemSelect
                 break;
         }
 
-        List<Token> list = new ArrayList<>(fronts.length);
+        ArrayList<Token> list = new ArrayList<>(fronts.length);
         for (int front : fronts) {
             list.add(new Token(false, back, front));
         }
@@ -175,13 +213,32 @@ public class TokensFragment extends Fragment implements AdapterView.OnItemSelect
         return list;
     }
 
-    private static class Token {
+    private static class Token implements Parcelable {
+        public static final Parcelable.Creator<Token> CREATOR
+                = new Parcelable.Creator<Token>() {
+            public Token createFromParcel(Parcel in) {
+                return new Token(in);
+            }
+
+            public Token[] newArray(int size) {
+                return new Token[size];
+            }
+        };
+
+
         int id;
         // If fixed is true then front image should be displayed
         boolean fixed;
         // All instances of Token have same back image
         static int backImgId;
         int frontImgId;
+
+        private Token(Parcel in) {
+            this.id = in.readInt();
+            this.fixed = in.readInt() == 1;
+            Token.backImgId = in.readInt();
+            this.frontImgId = in.readInt();
+        }
 
         public Token(boolean fixed, int backImgId, int frontImgId) {
             this(frontImgId, fixed, backImgId, frontImgId);
@@ -192,6 +249,19 @@ public class TokensFragment extends Fragment implements AdapterView.OnItemSelect
             this.fixed = fixed;
             Token.backImgId = backImgId;
             this.frontImgId = frontImgId;
+        }
+
+        @Override
+        public int describeContents() {
+            return 0;
+        }
+
+        @Override
+        public void writeToParcel(Parcel dest, int flags) {
+            dest.writeInt(id);
+            dest.writeInt(fixed ? 1 : 0);
+            dest.writeInt(backImgId);
+            dest.writeInt(frontImgId);
         }
     }
 
@@ -245,7 +315,20 @@ public class TokensFragment extends Fragment implements AdapterView.OnItemSelect
             }
 
             void setData() {
-                mFrontImageView.setImageResource(Token.backImgId);
+                Token token = mTokens.get(getAdapterPosition());
+                if (token.fixed) {
+                    mFrontImageView.setImageResource(token.frontImgId);
+                    // Temporary disable animations
+                    Animation in = mViewSwitcher.getInAnimation();
+                    Animation out = mViewSwitcher.getOutAnimation();
+                    mViewSwitcher.setInAnimation(null);
+                    mViewSwitcher.setOutAnimation(null);
+                    mViewSwitcher.setDisplayedChild(1);
+                    mViewSwitcher.setInAnimation(in);
+                    mViewSwitcher.setOutAnimation(out);
+                }else{
+                    mFrontImageView.setImageResource(Token.backImgId);
+                }
                 mBackImageView.setImageResource(Token.backImgId);
             }
 
